@@ -2,9 +2,9 @@
 ## Authors 
 [Dr Roberta Piroddi](https://www.liverpool.ac.uk/population-health/staff/roberta-piroddi/) (rpiroddi@liverpool.ac.uk),
 
-[Dr Konstantinos Daras]([link-to-profile](https://www.liverpool.ac.uk/population-health/staff/konstantinos-daras/)) (konstantinos.daras@liverpool.ac.uk),
+[Dr Konstantinos Daras](https://www.liverpool.ac.uk/population-health/staff/konstantinos-daras/) (konstantinos.daras@liverpool.ac.uk),
 
-[Prof Ben Barr]([link-to-profile](https://www.liverpool.ac.uk/population-health/staff/benjamin-barr/)) (benbarr@liverpool.ac.uk) 
+[Prof Ben Barr](https://www.liverpool.ac.uk/population-health/staff/benjamin-barr/) (benbarr@liverpool.ac.uk) 
 
 ## Description 
 This repository contains code, data and documentation to implement the algorithm to identify household with children with the most complex needs in C&M. The code consists of sql and R scripts; the data is in comma separated values, excel. Documentation is in tiff images, power-point slides and pdfs.

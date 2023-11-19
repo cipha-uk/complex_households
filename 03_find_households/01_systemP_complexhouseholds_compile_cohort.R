@@ -228,14 +228,14 @@ d[, asc_request_reason_carer_12:=as.numeric(!is.na(asc_request_reason_carer_12) 
 
 d[, carer_sc:=as.numeric(asc_request_reason_carer_12>0)]
 
-d[, cost_asc:=asc_user*10000]
+d[, cost_asc:=asc_user*16535]
 
 
 # some extremely high contact number ~ 1200 per year - truncate at max 1/day
 
 #hist(d$cs_contacts_tot_12)
 d[cs_contacts_tot_12>365, cs_contacts_tot_12:=365]
-d[, cost_cs:=cs_contacts_tot_12*60]
+d[, cost_cs:=cs_contacts_tot_12*80]
 
 d[, cs_children:=cs_cont_service_children_12+cs_cont_service_healthvisitormidwife_12]
 d[, cs_allied_nurs:=cs_cont_service_alliedhp_12+cs_cont_service_nursing_12]
@@ -415,7 +415,7 @@ table(d$mh_contacts_tot_12)
 d[mh_contacts_tot_12>365, mh_contacts_tot_12:=365, ]
 d[mental_mhds_contacts>365, mental_mhds_contacts:=365, ]
 #d[, cost_mh:=mental_mhds_contacts*216]
-d[, cost_mh:=mh_contacts_tot_12*216]
+d[, cost_mh:=mh_contacts_tot_12*342]
 
 # learning disabilities
 table(d$ld_mhds_use,d$learning_disability, useNA = "ifany")
@@ -424,7 +424,7 @@ d[ld_mhds_user>0, learning_disability:=1]
 table(d$learning_disability, useNA = "ifany")
 d[asc_request_reason_learning_12>0 | asc_service_reason_learning_12>0, learning_disability:=1]
 # add the cost of learning disabilities now
-d[, cost_ld:=learning_disability*777*3]
+d[, cost_ld:=learning_disability*3294]
 
 
 #----------------------------------------------------

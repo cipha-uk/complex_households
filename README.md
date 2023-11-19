@@ -15,7 +15,7 @@ To identify these households, the algorithm uses several data sources: gp record
 
 The process consists of three steps: 
 1. Different datasets are linked and restructured to be in a format where it is possible to extract the features of interest. This is contained in *\01_restructure_data* 
-2. Datasets, restructured and linked datasets are used to extract features, and all features are concatenated into a single table, with one row per person registered with ICB GPs and as many columns as features computed per individual. This is contained in *\02_extract_features*
+2. Datasets, restructured and linked datasets are used to extract features, and all features are concatenated into a single table, with one row per person registered with GPs and as many columns as features computed per individual. This is contained in *\02_extract_features*
 3. The input table created at the end of step 2 is used as input to step 3, where algorithm identifies the households with most complex needs and segments the population into 2 categories: one of complex households and the rest. This is contained in *\03_find_households*.
 
 ## Schematic workflow
@@ -65,6 +65,8 @@ The definition of complex households is:
 Script 01_system_complexhouseholds_compile_cohort.R implements the definition above. It takes as input **_cldat_2021.csv* (format shown in in *“input_complexhouseholds_v2.xlsx”*). 
 Generate as output the individual level characteristics and a complex household label - **indiv_household_dataset_children.Rdata*, the household level characteristics and a complex household label - **household_dataset_children.Rdata*.
 Script *02_ system_complexhouseholds_produce_reports* shows an example of analysis and plots and statistics which would be good to have in a dashboard. It outputs a powerpoint slide deck **complex_households.pptx* with the report and a lot of plots. All in subfolder *\Figures* Script *00_ system_complexhouseholds_run_scripts* iterates through each local authority, since the segmentation and analysis are at a local authority level.
+
+The costs of health and social care activity was approximately estimated applying the unit costs listed in the *"Estimation of costs applied to Complex households model.docx"* document.
 
 Subfolders *\data* – contains auxiliary open source data, and *\figures* – contains report and plots examples.
 

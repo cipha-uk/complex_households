@@ -7,7 +7,7 @@
 [Prof Ben Barr](https://www.liverpool.ac.uk/population-health/staff/benjamin-barr/) (benbarr@liverpool.ac.uk) 
 
 ## Description 
-This repository contains code, data and documentation to implement the algorithm to identify household with children with the most complex needs in C&M. The code consists of sql and R scripts; the data is in comma separated values, excel. Documentation is in tiff images, power-point slides and pdfs.
+This repository contains code, data and documentation to implement the algorithm to identify households with children with the most complex needs in C&M. The code consists of sql and R scripts; the data is in comma separated values, excel. Documentation is in tiff images, power-point slides and pdfs.
 
 The outcome is a binary segmentation of all individuals living in households with children as belonging to the highest complexity category of households or not, for a given period of 12 months (in our example 2021) for a given local authority, based on cumulative annual features of service utilisation and service cost and health and social characteristics in that period of 12 months. 
 

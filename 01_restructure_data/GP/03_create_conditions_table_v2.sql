@@ -6,6 +6,22 @@
 /*CREATE THE MAX TABLES, THE COMPLICATED ONES*/
 /* this script also adds the MIN TABLES using the same method as in Justine Wiltshire */
 
+/*
+-------------------------------------------------------------------------------------------------------------
+This software is released under the GNU GENERAL PUBLIC license. See the LICENSE file for details.
+
+THIS SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT 
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. 
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH 
+THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+You acknowledge and agree that the use of this software is at your own risk, and the authors disclaim 
+any and all liability for any direct, indirect, incidental, consequential, or special damages or losses 
+that may result from the use or inability to use the software.
+-------------------------------------------------------------------------------------------------------------
+*/
 
 --------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------
@@ -69,7 +85,7 @@ pivot
 			[Diabetes review (Other)],[Diabetes Care setting],[Referred to Dietician],[Diabetic foot review],[Diabetic Neuropathy testing],[CHD review],[Medication Review],[Medication Review Declined],
 			[COPD Annual Review],[Heart Failure review],[Mental Health Review],[Dementia Review],[Depression review],[Depression screening/questionnaire],[Bowel Screening],
 			[Bowel Screening Declined],[NHS Health Checks],[Cervical Screening],[Learning Disabilities Health Assessment],[DNA Bowel cancer screening],[CVD Risk assessment declined],
-			[DNA NHS Health Check],[Diabetic Retinal Screening – needs checking],[Cervical cytology exceptions],[Hysterectomy and equivalent ],[Spirometry contraindicated/declined],
+			[DNA NHS Health Check],[Diabetic Retinal Screening ï¿½ needs checking],[Cervical cytology exceptions],[Hysterectomy and equivalent ],[Spirometry contraindicated/declined],
 			[ACE / A2RA Max Tolerated Dose],[Cholesterol],[HDL Cholesterol],[LDL Cholesterol],[BP Diastolic],[BP Systolic],[BMI],[HbA1C],[eGFR],[FEV1/FVC],[Microalbuminuria (Code)],[Albuminuria (ACR)],
 			[Spirometry],[Qrisk Score],[Framingham Score],[Creatinine (All in last 1 year)],[Urine Protein Test],[CHA2DS2 VASC],[SERUM ALBUMIN],[TOTAL BILIRUBIN],[PROTHROMBIN TIME / INR],
 			[Chronic pain],[Parkinsons disease],[Multiple sclerosis],[Motor neurone disease],[Respiratory failure],[Kidney failure],[Osteoporosis],[Osteoarthritis],[Rheumatoid arthritis],
@@ -99,7 +115,7 @@ pivot
               [Diabetes review (Other)],[Diabetes Care setting],[Referred to Dietician],[Diabetic foot review],[Diabetic Neuropathy testing],[CHD review],[Medication Review],[Medication Review Declined],
               [COPD Annual Review],[Heart Failure review],[Mental Health Review],[Dementia Review],[Depression review],[Depression screening/questionnaire],[Bowel Screening],
               [Bowel Screening Declined],[NHS Health Checks],[Cervical Screening],[Learning Disabilities Health Assessment],[DNA Bowel cancer screening],[CVD Risk assessment declined],
-              [DNA NHS Health Check],[Diabetic Retinal Screening – needs checking],[Cervical cytology exceptions],[Hysterectomy and equivalent ],[Spirometry contraindicated/declined],
+              [DNA NHS Health Check],[Diabetic Retinal Screening ï¿½ needs checking],[Cervical cytology exceptions],[Hysterectomy and equivalent ],[Spirometry contraindicated/declined],
               [ACE / A2RA Max Tolerated Dose],[Cholesterol],[HDL Cholesterol],[LDL Cholesterol],[BP Diastolic],[BP Systolic],[BMI],[HbA1C],[eGFR],[FEV1/FVC],[Microalbuminuria (Code)],[Albuminuria (ACR)],
               [Spirometry],[Qrisk Score],[Framingham Score],[Creatinine (All in last 1 year)],[Urine Protein Test],[Chronic pain],[Parkinsons disease],[Multiple sclerosis],[Motor neurone disease],
               [Respiratory failure],[Kidney failure],[Osteoporosis],[Osteoarthritis],[Rheumatoid arthritis],[Ankylosing spondylitis],[Spondylosis and allied disorders],[Lupus],[Fibromyalgia],
@@ -204,7 +220,7 @@ pivot
 			[Diabetes review (Other)],[Diabetes Care setting],[Referred to Dietician],[Diabetic foot review],[Diabetic Neuropathy testing],[CHD review],[Medication Review],[Medication Review Declined],
 			[COPD Annual Review],[Heart Failure review],[Mental Health Review],[Dementia Review],[Depression review],[Depression screening/questionnaire],[Bowel Screening],
 			[Bowel Screening Declined],[NHS Health Checks],[Cervical Screening],[Learning Disabilities Health Assessment],[DNA Bowel cancer screening],[CVD Risk assessment declined],
-			[DNA NHS Health Check],[Diabetic Retinal Screening – needs checking],[Cervical cytology exceptions],[Hysterectomy and equivalent ],[Spirometry contraindicated/declined],
+			[DNA NHS Health Check],[Diabetic Retinal Screening ï¿½ needs checking],[Cervical cytology exceptions],[Hysterectomy and equivalent ],[Spirometry contraindicated/declined],
 			[ACE / A2RA MIN Tolerated Dose],[Cholesterol],[HDL Cholesterol],[LDL Cholesterol],[BP Diastolic],[BP Systolic],[BMI],[HbA1C],[eGFR],[FEV1/FVC],[Microalbuminuria (Code)],[Albuminuria (ACR)],
 			[Spirometry],[Qrisk Score],[Framingham Score],[Creatinine (All in last 1 year)],[Urine Protein Test],[CHA2DS2 VASC],[SERUM ALBUMIN],[TOTAL BILIRUBIN],[PROTHROMBIN TIME / INR],
 			[Chronic pain],[Parkinsons disease],[Multiple sclerosis],[Motor neurone disease],[Respiratory failure],[Kidney failure],[Osteoporosis],[Osteoarthritis],[Rheumatoid arthritis],
@@ -235,7 +251,7 @@ pivot
               [Diabetes review (Other)],[Diabetes Care setting],[Referred to Dietician],[Diabetic foot review],[Diabetic Neuropathy testing],[CHD review],[Medication Review],[Medication Review Declined],
               [COPD Annual Review],[Heart Failure review],[Mental Health Review],[Dementia Review],[Depression review],[Depression screening/questionnaire],[Bowel Screening],
               [Bowel Screening Declined],[NHS Health Checks],[Cervical Screening],[Learning Disabilities Health Assessment],[DNA Bowel cancer screening],[CVD Risk assessment declined],
-              [DNA NHS Health Check],[Diabetic Retinal Screening – needs checking],[Cervical cytology exceptions],[Hysterectomy and equivalent ],[Spirometry contraindicated/declined],
+              [DNA NHS Health Check],[Diabetic Retinal Screening ï¿½ needs checking],[Cervical cytology exceptions],[Hysterectomy and equivalent ],[Spirometry contraindicated/declined],
               [ACE / A2RA MIN Tolerated Dose],[Cholesterol],[HDL Cholesterol],[LDL Cholesterol],[BP Diastolic],[BP Systolic],[BMI],[HbA1C],[eGFR],[FEV1/FVC],[Microalbuminuria (Code)],[Albuminuria (ACR)],
               [Spirometry],[Qrisk Score],[Framingham Score],[Creatinine (All in last 1 year)],[Urine Protein Test],[Chronic pain],[Parkinsons disease],[Multiple sclerosis],[Motor neurone disease],
               [Respiratory failure],[Kidney failure],[Osteoporosis],[Osteoarthritis],[Rheumatoid arthritis],[Ankylosing spondylitis],[Spondylosis and allied disorders],[Lupus],[Fibromyalgia],
@@ -629,8 +645,8 @@ select  MPI.Pseudo_NHS_Number
 		[MAXC].[CVD Risk assessment declined] as CVD_RISK_ASSESSMENT_DECLINED_MAX_CODE,
 		[MAX].[DNA NHS Health Check] as DNA_NHS_HEALTH_CHECK_MAX,
 		[MAXC].[DNA NHS Health Check] as DNA_NHS_HEALTH_CHECK_MAX_CODE,
-		[MAX].[Diabetic Retinal Screening – needs checking] as DIABETIC_RETINAL_SCREENING_MAX,
-		[MAXC].[Diabetic Retinal Screening – needs checking] as DIABETIC_RETINAL_SCREENING_MAX_CODE,
+		[MAX].[Diabetic Retinal Screening ï¿½ needs checking] as DIABETIC_RETINAL_SCREENING_MAX,
+		[MAXC].[Diabetic Retinal Screening ï¿½ needs checking] as DIABETIC_RETINAL_SCREENING_MAX_CODE,
 		[MAX].[Cervical cytology exceptions] as CERVICAL_CYTOLOGY_EXCEPTIONS_MAX,
 		[MAXC].[Cervical cytology exceptions] as CERVICAL_CYTOLOGY_EXCEPTIONS_MAX_CODE,
 		[MAX].[Hysterectomy and equivalent ] as HYSTERECTOMY_AND_EQUIVALENT_MAX,
@@ -972,8 +988,8 @@ select  MPI.Pseudo_NHS_Number
 		[MINC].[CVD Risk assessment declined] as CVD_RISK_ASSESSMENT_DECLINED_MIN_CODE,
 		[MIN].[DNA NHS Health Check] as DNA_NHS_HEALTH_CHECK_MIN,
 		[MINC].[DNA NHS Health Check] as DNA_NHS_HEALTH_CHECK_MIN_CODE,
-		[MIN].[Diabetic Retinal Screening – needs checking] as DIABETIC_RETINAL_SCREENING_MIN,
-		[MINC].[Diabetic Retinal Screening – needs checking] as DIABETIC_RETINAL_SCREENING_MIN_CODE,
+		[MIN].[Diabetic Retinal Screening ï¿½ needs checking] as DIABETIC_RETINAL_SCREENING_MIN,
+		[MINC].[Diabetic Retinal Screening ï¿½ needs checking] as DIABETIC_RETINAL_SCREENING_MIN_CODE,
 		[MIN].[Cervical cytology exceptions] as CERVICAL_CYTOLOGY_EXCEPTIONS_MIN,
 		[MINC].[Cervical cytology exceptions] as CERVICAL_CYTOLOGY_EXCEPTIONS_MIN_CODE,
 		[MIN].[Hysterectomy and equivalent ] as HYSTERECTOMY_AND_EQUIVALENT_MIN,

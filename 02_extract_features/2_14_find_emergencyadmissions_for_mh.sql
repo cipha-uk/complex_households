@@ -7,6 +7,22 @@ per person per specific reason ******/
 /*** Date: 2022, 10   ***/
 /*** Updated: 2023, 11 ***/
 
+/*
+-------------------------------------------------------------------------------------------------------------
+This software is released under the GNU GENERAL PUBLIC license. See the LICENSE file for details.
+
+THIS SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT 
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. 
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH 
+THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+You acknowledge and agree that the use of this software is at your own risk, and the authors disclaim 
+any and all liability for any direct, indirect, incidental, consequential, or special damages or losses 
+that may result from the use or inability to use the software.
+-------------------------------------------------------------------------------------------------------------
+*/
 
 DROP TABLE if exists [Client_SystemP_RW].[RP_vw_SUS_APC_MH_EmergencyAdmissions]
 
@@ -28,7 +44,7 @@ SELECT [X_SEQNO] as num_emadm
   AND (ADMINISTRATIVE_CATEGORY = '01' OR ADMINISTRATIVE_CATEGORY = '03') 
   AND ((ad_method_hosp_prov_spell like '2%')) --- emergency admission
   AND
-  (   [Diagnosis_all] like '%X60%'or [Diagnosis_all] like '%X61%'or [Diagnosis_all] like '%X62%'or [Diagnosis_all] like '%X63%'
+  (ï¿½ï¿½ [Diagnosis_all] like '%X60%'or [Diagnosis_all] like '%X61%'or [Diagnosis_all] like '%X62%'or [Diagnosis_all] like '%X63%'
    or [Diagnosis_all] like '%X64%'or [Diagnosis_all] like '%X65%'or [Diagnosis_all] like '%X66%'or [Diagnosis_all] like '%X67%'
    or [Diagnosis_all] like '%X68%'or [Diagnosis_all] like '%X69%'or [Diagnosis_all] like '%X70%'or [Diagnosis_all] like '%X71%'
    or [Diagnosis_all] like '%X72%'or [Diagnosis_all] like '%X73%'or [Diagnosis_all] like '%X74%'or [Diagnosis_all] like '%X75%'
@@ -61,9 +77,9 @@ union
    (  ([Diagnosis_all] like '%F2%' OR [Diagnosis_all] like '%F3%' OR [Diagnosis_all] like '%F4%' OR [Diagnosis_all] like '%F9%'
       OR [Diagnosis_all] like '%F51%' OR [Diagnosis_all] like '%F53%' )
 
-    and [Diagnosis_all]  not like '%F0%'
+    and [Diagnosis_all]ï¿½ not like '%F0%'
 	and [Diagnosis_all]  not like '%F1%'
-    and [Diagnosis_all]  not like '%F50%')
+    and [Diagnosis_all]ï¿½ not like '%F50%')
 
   )
 
@@ -89,7 +105,7 @@ union
 
   AND
  (
-   [Diagnosis_all] like '%F50%'
+ï¿½ï¿½ [Diagnosis_all] like '%F50%'
 )
 
 )
@@ -116,7 +132,7 @@ union
 
   AND
  (
-   [Diagnosis_all] like '%F10%'
+ï¿½ï¿½ [Diagnosis_all] like '%F10%'
 
 )
 )
@@ -142,7 +158,7 @@ union
   AND ((ad_method_hosp_prov_spell like '2%')) --- emergency admission
   AND
  (
-   [Diagnosis_all] like '%F11%'
+ï¿½ï¿½ [Diagnosis_all] like '%F11%'
 or [Diagnosis_all] like '%F12%'
 or [Diagnosis_all] like '%F13%'
 or [Diagnosis_all] like '%F14%'

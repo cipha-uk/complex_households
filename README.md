@@ -72,6 +72,9 @@ Subfolders *\data* – contains auxiliary open source data, and *\figures* – c
 
 All scripts in R. Run following numeric order in file name. 
 
+## Acknowledgment
+**The authors would like to express their gratitude to Justine Wiltshire (justine.wiltshire@nhs.net) - Analytics Manager in The Strategy Unit of NHS Midlands & Lancashire Commissioning Support Unit for sharing the initial SQL scripts and Arden & GEM for providing the support with the data. Their contribution was invaluable in the development of this work.**
+
 ## Funders
 **This work was supported by funding of the National Institute for Health and Social Care Research - NIHR - Public Policy Research Programme grant number 202428 - RESTORE: Research for Equitable sySTem respOnse and REcovery.**
 
